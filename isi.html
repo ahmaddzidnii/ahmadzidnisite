@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="anti-copy-paste" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title id="title"></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link 
+        rel="Shortcut Icon"
+        type="image/png"
+        href="favicon.png">
+    <link rel="stylesheet" href="style/quran/style-surat.css">
+  </head>
+  <body class="bg-body-tertiary anti-copy-paste">
+
+    <div id="pre-loader"></div>
+
+     <!-- navbar -->
+     <br id="home">
+  <section >
+    <nav class="navbar navbar-expand fixed-top bg-primary " data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand font-custom" href="index.html">Ahmad Zidni</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a type="button" class="nav-link active font-custom fs-5" data-bs-toggle="modal" data-bs-target="#modal-info-tab-isi"><i class="bi bi-bell"></i></a>
+              </li>
+            </ul>
+          </ul>
+          <!-- <ul class="navbar-nav">
+            <li class="nav-item">
+              <a type="button" class="nav-link active font-custom fs-5" href="/Jadwal Shalat/index.html"><i class="bi bi-calendar-date"></i>
+            </li>
+          </ul> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- Akhir Navbar -->
+      <section>
+        <div class="container margin-top-custom">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-4 mb-4" id="tombol-navigasi-before"></div>
+                  <div class="card mb-3">
+                        <div class="card-body ms-3 mt-3 me-3 mb-3 judul-surat"></div>
+                  </div>
+            </div>
+                <div class="col-md-12" id="isi-surat-full"></div>
+           </div>
+        </div>
+            <div class="container">
+              <div class="row mt-3">  
+                  <div class="col-md justify-content-end d-flex "  id="tombol-navigasi-next"></div>
+              </div>
+            </div>         
+      </section>
+
+      
+      <!-- Modal Info -->
+      <section>
+        <div class="modal fade" id="modal-info-tab-isi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="container">
+                  <br>
+                  <h4>Desclaimer:</h4>
+                  <br>
+                  <ul class="list-group">
+                    <li class="list-group-item">Terimakasih Kepada <a class="text-decoration-none" href="https://quran-api.santrikoding.com/">quran-api.santrikoding.com </a>dan <a class="text-decoration-none" href="https://equran.id">equran.id</a> atas API nya.</li>
+                    <li class="list-group-item">Website Ini Dibuat Hanya Untuk Hiburan Semata.</li>
+                    <li class="list-group-item">Informasi Waktu Sholat Ini, Diambil Dari Situs  <a   class="text-decoration-none"href="https://bimasislam.kemenag.go.id/jadwalshalat"> Kemenag Bimas Islam</a>.</li>
+                    <li class="list-group-item">Sumber utama dari data yang terdapat pada API Al Quran ini adalah Aplikasi Quran<a   class="text-decoration-none"href="https://quran.kemenag.go.id/">Kementrian Agama Republik Indonesia</a>.</li>
+                    <li class="list-group-item">Ini adalah Salah Satu Projek Portofolio <a  class="text-decoration-none"href="https://www.youtube.com/channel/UCUmQyCj8_vpW3sAt3Jd0X2w">Ahmad Zidni.</a></li>
+                    <li class="list-group-item">Data IP Di Website Ini Mungkin Benar.</li>
+                    <li class="list-group-item">Jangan Lupa Bahagia. Terutama Untuk kamu :v <i class="bi bi-heart-fill"></i>.</li>
+                    <li class="list-group-item">My <i class="bi bi-envelope"></i> ahmadzidni616@gmail.com.</li>
+                  </ul>
+
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </section>
+<!-- Akhir Modal Info -->
+
+   
+    <!-- footer -->
+    <section style="margin-top: 126px;">
+      <footer class="border border-1 bd-footer py-4 py-md-5  mt-5 bg-body-tertiary">
+          <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+                  <span class="fs-5 ms-2">Ahmad Zidni</span>
+                </a>
+                <ul class="list-unstyled small">
+                  <li class="mb-2">Dibuat dengan penuh semangat dan niat yang baik oleh <a href="https://www.youtube.com/channel/UCUmQyCj8_vpW3sAt3Jd0X2w">Ahmad Zidni</a>.</li>
+                  <li class="mb-2">Semua style disini memakai framework dari <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap</a>.</li>
+                  <li class="mb-2">Versi v5.3.0.</li>
+                </ul>
+              </div>
+              <div class="col-6 col-lg-3 offset-lg-1 mb-3">
+                <h5>Link Bootstrap</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="/">Home</a></li>
+                  <li class="mb-2"><a href="/docs/5.3/">Docs</a></li>
+                  <li class="mb-2"><a href="/docs/5.3/examples/">Examples</a></li>
+                  <li class="mb-2"><a href="https://icons.getbootstrap.com/">Icons</a></li>
+                  <li class="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
+              </div>
+              <div class="col-6 col-lg-3 mb-3">
+                <h5>Sosial Media</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="https://www.youtube.com/channel/UCUmQyCj8_vpW3sAt3Jd0X2w">Youtube</a></li>
+                  <li class="mb-2"><a href="https://www.instagram.com">Instagram</a></li>
+                  <li class="mb-2"><a href="https://web.telegram.org/">Telegram</a></li>
+                  <li class="mb-2"><a href="https://id-id.facebook.com">Faceebook</a></li>
+                  <li class="mb-2"><a href="https://twitter.com/">Twitter</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-lg-2 mb-3">
+                <h5>Projek</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="https://ahmaddzidnii.github.io/searchmovie">Movie Search</a></li>
+                  <li class="mb-2"><a href="https://ahmaddzidnii.github.io/myip/">Get IP</a></li>
+                  <li class="mb-2"><a href="https://ahmaddzidnii.github.io/portofolio1/">Portofilo 1</a></li>
+                  <li class="mb-2"><a href="https://ahmaddzidnii.github.io/lampuv1/">Lampu V1</a></li>
+                  <li class="nav-item dropdown mb-2">
+                    <a class="nav-link dropdown-toggle text-decoration-underline" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lainnya 
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Cooming Soon</a></li>
+                      <li><a class="dropdown-item" href="#">Cooming Soon</a></li>
+                      <li><a class="dropdown-item" href="#">Cooming Soon</a></li>
+                      <li><a class="dropdown-item" href="#">Cooming Soon</a></li>
+                      <li><a class="dropdown-item" href="#">Cooming Soon</a></li>
+                      <li><a class="dropdown-item" href="#">Cooming Soon</a></li>
+                      <li><a class="dropdown-item" href="#">Cooming Soon</a></li>
+                      <li><a class="dropdown-item" href="#">Cooming Soon</a></li>
+                      <li><a class="dropdown-item" href="#">Cooming Soon</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="js/js-quran/isi.js"></script>
+    <script src="js/js-quran/load.js"></script>
+  </body>
+</html>

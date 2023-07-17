@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;600;700&family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Noto+Naskh+Arabic&family=Noto+Sans+Arabic:wght@200&family=Poppins:ital,wght@0,200;1,500&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+* {
+    font-family: 'Noto Naskh Arabic', serif;
+}
+
+.hidden-list {
+    display: none;
+}
+
+/* * {
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', sans-serif;
+} */
+
+.font-khusus {
+     font-family: 'Rubik', sans-serif;
+}
+
+.margin-top-custom {
+    margin-top: 100px;
+}
+
+
+.anti-copy-paste {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+
